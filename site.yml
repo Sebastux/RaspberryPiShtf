@@ -1,0 +1,8 @@
+---
+# Lancement de la tache d'installation complete du serveur.
+- name: Installation du tronc commun en cours.
+  hosts: "{{ cible }}"
+  remote_user: root
+  gather_facts: yes
+  roles:
+    - XXXXX

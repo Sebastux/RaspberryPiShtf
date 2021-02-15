@@ -1,0 +1,4 @@
+---
+# Variabe interne
+version_playbook: "developpement"
+motpasse: "{{ 'mypassword' | password_hash('sha512', 'mysecretsalt') }}"
